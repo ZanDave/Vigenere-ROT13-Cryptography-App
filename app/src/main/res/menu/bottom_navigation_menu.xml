@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_vigenere"
+        android:title="Vigenere" />
+
+    <item
+        android:id="@+id/navigation_rot13"
+        android:title="ROT13" />
+
+</menu>

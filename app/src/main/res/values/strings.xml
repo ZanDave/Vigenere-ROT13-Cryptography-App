@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kripto</string>
+    <string name="vigenere">Vigenere</string>
+    <string name="rot13">ROT13</string>
+    <string name="plain_text">Plain Text</string>
+    <string name="key">Key</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="result">Result</string>
+</resources>

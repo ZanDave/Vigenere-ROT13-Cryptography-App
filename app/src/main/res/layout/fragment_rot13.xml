@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etPlainTextRot13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/plain_text"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <Button
+        android:id="@+id/btnEncryptRot13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/encrypt"
+        android:layout_below="@id/etPlainTextRot13"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"/>
+
+    <Button
+        android:id="@+id/btnDecryptRot13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decrypt"
+        android:layout_below="@id/btnEncryptRot13"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tvResultRot13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_below="@id/btnDecryptRot13"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+</RelativeLayout>
